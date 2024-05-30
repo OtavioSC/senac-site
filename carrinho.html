@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras - Caramelo Patisserie</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/carrinho.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2><a href="/">Caramelo Patiserrie</a></h2>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+          <li><a href="loja.html">Loja</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="carrinho.html">Carrinho</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="carrinho">
+        <h2>Carrinho</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Quantidade</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bolo noite estrelada</td>
+              <td>1</td>
+              <td>R$ 69,90</td>
+            </tr>
+            <tr>
+              <td>Chocolate belga</td>
+              <td>1</td>
+              <td>R$ 0,00</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Subtotal</td>
+              <td>R$ 69,90</td>
+            </tr>
+            <tr>
+              <td colspan="2">Desconto</td>
+              <td>R$ 10,00</td>
+            </tr>
+            <tr>
+              <td colspan="2">Total</td>
+              <td>R$ 59,90</td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <div class="acoes">
+          <a href="#" class="cupom">Cupom</a>
+          <a href="#" class="finalizar">Finalizar</a>
+        </div>
+      </section>
+
+      <section class="resumo-pedido">
+        <h2>Resumo do Pedido</h2>
+      </section>
+    </main>
+  </body>
+</html>
