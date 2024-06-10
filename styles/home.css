@@ -207,10 +207,16 @@ body {
   gap: 50px;
 }
 
+.products h2 {
+  font-size: 2.5rem;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
 .product-cards {
   display: flex;
   flex-direction: row;
-  width: 80vw;
+  width: 70vw;
   padding: 10px 20px;
   background-color: #e9c46a;
   border-radius: 10px;
@@ -271,28 +277,35 @@ body {
 	cursor: pointer;
 }
 
-.footer {
+.contact {
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 80px;
-  background-color: #f889e6;
+  gap: 50px;
   padding: 50px 0;
+  color: #161616;
 }
 
-.footer h2 {
-  color: #ffffff;
+.contact h2 {
   font-size: 2.5rem;
   margin-top: 20px;
 }
 
-.footer-content {
+.contact p {
+	font-size: 1.5rem;
+	width: 35ch;
+}
+
+.contact-address {
   display: flex;
-  color: #ffffff;
-  gap: 10px;
+  gap: 30px;
   padding: 10px;
+}
+
+.contact-details ul{
+	list-style: none;
 }
 
 @media (max-width: 1700px) {
