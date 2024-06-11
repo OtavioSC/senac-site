@@ -47,12 +47,12 @@ body {
 
 .fonte_titulo {
   font-family: La Belle Aurore;
-  font-size: 24px;
+  font-size: 3rem;
 }
 
 .fonteinferiortexto {
   font-family: La Belle Aurore;
-  font-size: 24px;
+  font-size: 3rem;
 }
 
 .texto_esquerda {
@@ -62,7 +62,7 @@ body {
   color: black;
   font-weight: bold;
   font-family: Istok Web;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .texto_esquerda p {
@@ -112,6 +112,12 @@ body {
   .conteudo {
     gap: 2px;
   }
+}
+
+@media (max-width: 1000px) {
+.texto_esquerda {
+		font-size: 1.05rem;
+	}
 }
 
 @media (max-width: 900px) {

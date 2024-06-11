@@ -15,82 +15,17 @@
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <ul class="menu">
-          <li><a href="loja.html">Loja</a></li>
+          <li><a href="loja.html">Produtos</a></li>
           <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="carrinho.html">Carrinho</a></li>
+          <!-- <li><a href="carrinho.html">Carrinho</a></li> -->
         </ul>
       </nav>
     </header>
 
     <main>
       <section class="product">
-        <div class="container">
-          <div class="lado-esquerdo">
-            <div class="items">
-              <div class="select-image">
-                <img
-                  src="./images/bolo-noite-estrelada.png"
-                  alt="Foto Bolo Principal"
-                  height="350"
-                />
-              </div>
-              <div class="thumbnails">
-                <div class="thumbnail">
-                  <img
-                    src="./images/bolo-noite-estrelada.png"
-                    alt="Foto Bolo Esquerda"
-                    width="109"
-                    height="134"
-                  />
-                </div>
-                <div class="thumbnail">
-                  <img
-                    src="./images/bolo-noite-estrelada.png"
-                    alt="Foto Bolo Direita"
-                    width="109"
-                    height="134"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="lado-direito">
-            <div class="content">
-              <h1>Bolo Noite Estrelada</h1>
-              <p>
-                Bolo com massa de chocolate ao leite e recheio de chocolate
-                belga. Decoração inspirada na obra clássica do pintor neerlândes
-                Vincent Willem van Gogh
-              </p>
-              <div class="select-menus">
-                <select name="opcao1" id="opcao1">
-                  <option value="" disabled selected>Tamanhos</option>
-                  <option value="opcao1">Tamanho A</option>
-                  <option value="opcao2">Tamanho B</option>
-                  <option value="opcao3">Tamanho C</option>
-                </select>
-                <select name="opcao2" id="opcao2">
-                  <option value="" disabled selected>Quantidade</option>
-                  <option value="opcao1">Quantidade A</option>
-                  <option value="opcao2">Quantidade B</option>
-                  <option value="opcao3">Quantidade C</option>
-                </select>
-              </div>
-              <div class="options">
-                <span class="preco">R$69.90</span>
-                <a
-                  href="#"
-                  class="botao"
-                  id="carrinho"
-                  onclick="adicionarAoCarrinho()"
-                  >Adquirir</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
+			<script src="scripts/product.js"></script>
     </main>
   </body>
 </html>

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Ovo de páscoa de colher",
+    "description": "Kinder bueno com chocolate amargo",
+    "price": 40.99,
+    "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/433678644_18402055000066170_3762833658114652159_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=sk-8zS3GJC0Q7kNvgEW0oi4&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYAyYemEZGs5oAf0kwf0qlJovk_fKfgNX5RtydbDqvsIRg&oe=666E448B&_nc_sid=cf751b",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Mousse de morango sensação",
+    "description": "Morangos frescos com chocolate amargo",
+    "price": 11.99,
+    "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/447782758_18415100416066170_4726534502886356394_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=vwxNcuD-O70Q7kNvgElpkRK&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYBtdJCHtmQ_iuwHG0NBn0IOCeRE3wZc9KFkf3x1UJJe9w&oe=666E5489&_nc_sid=cf751b",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Banoffee de pote",
+    "description": "Uma reconstrução de um clássico",
+    "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/447786561_18414754615066170_9141438621306582357_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=2miv7IqvVB4Q7kNvgEEizcG&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYB-zKWTQ0EWSy5FqMGm_qkkRms2I1mHSrFJhXPKwqafwg&oe=666E457A&_nc_sid=cf751b",
+    "price": 11.99,
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Bolo de beijinho",
+    "description": "Um doce equilibrado e delicioso",
+    "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/447959192_18414387559066170_2745882173600925302_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=L8opVWnQcMYQ7kNvgE0KMzm&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYAuoCMh--c2rPHbHrUuUUecmcZJzc01fWAGbruRKhoPtQ&oe=666E53EF&_nc_sid=cf751b",
+    "price": 59.99,
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Ovo de Páscoa de colher",
+    "description": "Sabor ninho com Nutella",
+    "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/434157218_18402527200066170_2477822513162404288_n.jpg?stp=dst-jpg_e15&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=6_YBymXuQHsQ7kNvgEHiDlz&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYBpaFebShX1CbtiYBOsl4ZA57-J4bZ9KRl6Yhc24W99BQ&oe=666E41C0&_nc_sid=cf751b",
+    "price": 40.99,
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "Ovo de Páscoa de colher",
+    "description": "Brownie com brigadeiro cremoso",
+    "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/432923730_18402237223066170_507904215635603605_n.jpg?stp=dst-jpg_e15&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=7ObFTt9C_8sQ7kNvgE-p0Sq&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYD4DrkPS-CiZorOF_DYS_MM4MmjmnsC6IPtkKyP_MNfkA&oe=666E4C91&_nc_sid=cf751b",
+    "price": 40.99,
+    "available": true
+  },
+  {
+    "id": 7,
+    "name": "Bombom bolo de cenoura com chocolate",
+    "description": "Kinder bueno com chocolate amargo",
+    "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/434177787_18401928238066170_422619585411244313_n.jpg?stp=dst-jpg_e15&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=NpnpEFEU85MQ7kNvgEtRAfZ&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYBxEERPSqd0GPOYC8G8Zjwsb53zdOoRyCC1B1xjnHjdiA&oe=666E6B61&_nc_sid=cf751b",
+    "price": 15.99,
+    "available": true
+  }
+]
