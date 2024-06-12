@@ -2,7 +2,7 @@ async function fetchProducts() {
   try {
     const response = await fetch("./scripts/data.json");
     if (!response.ok) {
-      throw new Error("Network response was not ok");
+      throw new Error("A resposta da rede não foi boa");
     }
     return await response.json();
   } catch (error) {
@@ -31,7 +31,7 @@ async function addProducts() {
           <p class="card-description">${product.description}</p>
         </div>
         <div class="card-buy">
-          <span class="card-price">${product.price}</span>
+          <span class="card-price">R$${product.price}</span>
         </div>
       </div>
     `;

@@ -37,32 +37,42 @@ async function addProductData() {
             <div class="content">
               <h1>${product.name}</h1>
               <p>
-								${product.description}
+                ${product.description}
               </p>
               <div class="select-menus">
                 <select name="opcao1" id="opcao1">
                   <option value="" disabled selected>Tamanhos</option>
-                  <option value="opcao1">Tamanho A</option>
-                  <option value="opcao2">Tamanho B</option>
-                  <option value="opcao3">Tamanho C</option>
-                </select>
-                <select name="opcao2" id="opcao2">
-                  <option value="" disabled selected>Quantidade</option>
-                  <option value="opcao1">Quantidade A</option>
-                  <option value="opcao2">Quantidade B</option>
-                  <option value="opcao3">Quantidade C</option>
+                  <option value="2kg">Grande - 2Kg</option>
+                  <option value="1kg">Médio - 1Kg</option>
+                  <option value="500g">Pequeno - 500g</option>
                 </select>
               </div>
               <div class="options">
-                <span class="preco">${product.price}</span>
+                <span class="preco" id="preco">R$${product.price}</span>
               </div>
             </div>
           </div>
         </div>
     `;
-  } else {
-    console.error("Product not found");
+
+    const preçoMult = document.getElementById('preco');
+    const selectMenus = document.querySelectorAll('.select-menus select');
+
+    selectMenus.forEach(select => {
+      select.addEventListener('change', () => {
+        let novoPreco = parseFloat(product.price);
+        const tamanho = document.getElementById('opcao1').value;
+        if (tamanho === '2kg') {
+          novoPreco *= 4;
+        } else if (tamanho === '1kg') {
+          novoPreco *= 2;
+        } else if (tamanho === '500g') {
+        }
+        preçoMult.textContent = 'R$' + novoPreco.toFixed(2);
+      });
+    });
+   }
   }
-}
+    
 
 document.addEventListener("DOMContentLoaded", addProductData);

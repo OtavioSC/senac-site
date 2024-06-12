@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -100,6 +103,17 @@ main {
   text-align: center;
 }
 
+.card-image {
+  height: 80%;
+  width: 120px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card-image:hover {
+  transform: scale(1.05);
+}
+
 @media (max-width: 1500px) {
   .products {
     grid-template-columns: repeat(3, minmax(320px, 1fr));
@@ -115,6 +129,7 @@ main {
 @media (max-width: 800px) {
   .products {
     gap: 15px;
+		margin-top: 100px;
   }
 
   .card {
@@ -122,6 +137,7 @@ main {
     width: 200px;
 		max-height: 400px;
   }
+  
 }
 
 @media (max-width: 500px) {

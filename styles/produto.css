@@ -107,6 +107,7 @@ h2 a {
 
 .select-image img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .thumbnails {
@@ -186,6 +187,23 @@ h2 a {
   cursor: pointer;
 }
 
+.items:hover {
+  animation-name: imagesAnimacao;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes imagesAnimacao {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
 .botao {
   display: flex;
   text-decoration: none;
@@ -248,6 +266,15 @@ select {
   padding: 10px;
 }
 
+.ingredientes-name {
+  color: #2e2e2e;
+  font-size: 20px;
+}
+
+.ingredientes-description {
+  color: #908f91;
+}
+
 @media (max-width: 800px) {
   .menu {
     display: none;
@@ -276,8 +303,6 @@ select {
   .menu-icon {
     display: block;
   }
-
-  /* Show menu when checkbox is checked */
   #menu-toggle:checked + .menu-icon + .menu {
     display: flex;
     background-color: #ffffff;
@@ -287,31 +312,44 @@ select {
     width: 100vw;
   }
 
-	.container {
-		height: 100vh;
-	}
-	
-	.content {
-		padding: 0px;
-	}
+  .container {
+    max-height: 800px;
+  }
 
-	.select-menus {
-		flex-direction: column;
-		width: 50vw;
-	}
+  .content {
+    padding: 0px;
+  }
 
-	.options {
-		margin-top: 50px;
-	}
+  .select-menus {
+    flex-direction: column;
+    width: 50vw;
+  }
+
+  .preco {
+    padding: 0px;
+  }
+
+  .lado-esquerdo {
+    padding-left: 20px;
+  }
 }
 
-/* TELA DISPOTIVOS MOVEIS */
-@media screen and (max-width: 768px) /*TELA NO MAXIMO DE 768*/ {
-  .menu-lado-esquerdo {
-    flex-direction: column;
+@media screen and (max-width: 768px) {
+	body {
+		height: 800px;
+	}
+
+  .container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin-right: auto;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+		width: 80vw;
   }
 
   .menu-lado-esquerdo nav {
@@ -333,6 +371,20 @@ select {
     gap: 10px;
   }
 
+  .lado-direito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .select-menus {
+    align-self: center;
+  }
+
+  .options span {
+    align-self: center;
+  }
+
   .container {
     flex-direction: column;
     gap: 20px;
@@ -345,6 +397,7 @@ select {
   .lado-direito,
   .lado-esquerdo {
     width: 100%;
+    text-align: center;
   }
 
   .select-image,
@@ -355,7 +408,7 @@ select {
 
   .select-image img,
   .thumbnails img {
-    width: 100%;
+    width: 200px;
     height: 200px;
   }
 
@@ -366,12 +419,8 @@ select {
   }
 
   .content {
-    max-width: 100%;
     margin-bottom: 80px;
-  }
-
-  .botao {
-    font-size: 16px;
+    padding: 10px;
   }
 
   .select-menus select {
@@ -379,6 +428,13 @@ select {
   }
 
   .preco {
-    padding-right: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+  }
+
+  .nome,
+  .preco {
+    text-align: center;
   }
 }

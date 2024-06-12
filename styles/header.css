@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
 header {
   height: 3vh;
   max-height: 150px;
@@ -6,6 +8,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
   box-shadow:
     rgba(0, 0, 0, 0.07) 0px 1px 1px,
     rgba(0, 0, 0, 0.07) 0px 2px 2px,
@@ -57,6 +60,12 @@ h2 a {
 }
 
 @media(max-width: 800px) {
+	header {
+		position: fixed;
+		z-index: 2;
+		background-color: #ffffff;
+	}
+
   .menu {
     display: none;
     flex-direction: column;

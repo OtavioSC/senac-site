@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "Mousse de morango sensação",
+    "name": "Mousse de morango",
     "description": "Morangos frescos com chocolate amargo",
     "price": 11.99,
     "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/447782758_18415100416066170_4726534502886356394_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=vwxNcuD-O70Q7kNvgElpkRK&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYBtdJCHtmQ_iuwHG0NBn0IOCeRE3wZc9KFkf3x1UJJe9w&oe=666E5489&_nc_sid=cf751b",
@@ -36,6 +36,7 @@
     "name": "Ovo de Páscoa de colher",
     "description": "Sabor ninho com Nutella",
     "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/434157218_18402527200066170_2477822513162404288_n.jpg?stp=dst-jpg_e15&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=6_YBymXuQHsQ7kNvgEHiDlz&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYBpaFebShX1CbtiYBOsl4ZA57-J4bZ9KRl6Yhc24W99BQ&oe=666E41C0&_nc_sid=cf751b",
+    "image1": "https://instagram.fcgh71-1.fna.fbcdn.net/v/t39.30808-6/434089289_18402055552066170_7317050435637202995_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NTZ4NjU2LnNkci5mMzA4MDgifQ&_nc_ht=instagram.fcgh71-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=qYEEqlqkLdEQ7kNvgGzZ94K&edm=AFg4Q8wAAAAA&ccb=7-5&ig_cache_key=MzMzMDE3MzYxODg1NDk0ODU4OA%3D%3D.2-ccb7-5&oh=00_AYDUzlXrmEPWMvUwsTqZOdgK-tkxqH4E4Mzzw_09re6V3w&oe=666CBE21&_nc_sid=cf751b",
     "price": 40.99,
     "available": true
   },
@@ -54,5 +55,46 @@
     "image": "https://instagram.fcgh39-1.fna.fbcdn.net/v/t39.30808-6/434177787_18401928238066170_422619585411244313_n.jpg?stp=dst-jpg_e15&_nc_ht=instagram.fcgh39-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=NpnpEFEU85MQ7kNvgEtRAfZ&edm=ANTKIIoAAAAA&ccb=7-5&oh=00_AYBxEERPSqd0GPOYC8G8Zjwsb53zdOoRyCC1B1xjnHjdiA&oe=666E6B61&_nc_sid=cf751b",
     "price": 15.99,
     "available": true
+  },
+  {
+    "id": 8,
+    "name": "Concret Cake",
+    "description": "Bolo com brigadeiro branco, geleia de frutas vermelhas, buttercream, figos e amoras.",
+    "image": "https://cdn.discordapp.com/attachments/1135715257201987587/1250248193640370176/272724342_5078938938839631_5426624369415560425_n.jpg?ex=666a3fdd&is=6668ee5d&hm=b7b9ed8fbd123fd026ef9159191cf57f867165e9d995aa86f0f52374a38ad189&",
+    "price": 17.99,
+    "available": true
+  },
+  {
+    "id": 9,
+    "name": "Torta Banoffe",
+    "description": "Feita com massa sablé, doce de leite, bananas e chantilly de nata.",
+    "image": "https://cdn.discordapp.com/attachments/1135715257201987587/1250248643223486588/279631015_1085804095481633_4411476015672886823_n.jpg?ex=666a4049&is=6668eec9&hm=663cffaff1f8fa9a8491fd4905ef5b837fc172af5fe34dba33cd4e8836a70e8a& ",
+    "price": 19.99,
+    "available": true
+  },
+  {
+    "id": 10,
+    "name": "Torta de Capuccino",
+    "description": "Feita com massa negresco, recheio de brigadeiro de café, finalizado com chantilly.",
+    "image": "https://cdn.discordapp.com/attachments/1135715257201987587/1250249180719612037/187749341_498515168011388_3277086742738665203_n.png?ex=666a40c9&is=6668ef49&hm=b8a9ddc9af50c65bed82ae70e0571eab7ba6421a38f2ffa572dbf096a046d8d7& ",
+    "price": 23.50,
+    "available": true
+  },
+  {
+    "id": 11,
+    "name": "Bolo Kinder Bueno",
+    "description": "Feito com massa de cacau, brigadeiro de creme avelã e recheio cremoso tipo Kinder Bueno.",
+    "image": "https://cdn.discordapp.com/attachments/1135715257201987587/1250251845356490812/image.png?ex=666a4344&is=6668f1c4&hm=39c4c89d3b4dc6d2753ce071467e12d6b8a17f3dbfada5770f125572ab98e305&",
+    "price": 32.45,
+    "available": true
+  },
+  {
+    "id": 12,
+    "name": "Bolo Sensação ",
+    "description": "Feito com uma massa intensa de cacau, brigadeiro meio amargo e pedaços de morango. ",
+    "image": "https://cdn.discordapp.com/attachments/1135715257201987587/1250253209335762966/image.png?ex=666a4489&is=6668f309&hm=32bdb9ac9d6348d26ea000c2bee85823a2a8c54b37843cbadd4871f1e1a45614&",
+    "price": 32.45,
+    "available": true
   }
 ]
+
