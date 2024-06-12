@@ -70,7 +70,7 @@ h2 a {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 45px;
     right: 0px;
     width: 100vw;
     width: calc(100% - 40px);
@@ -103,4 +103,10 @@ h2 a {
   .menu {
     width: 100vw;
   }
+}
+
+@media (max-height: 700px) {
+	.menu {
+		height: 300px;
+	}
 }

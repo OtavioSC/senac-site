@@ -722,15 +722,22 @@ body {
 		gap: 0px;
 	}
 	
+	.products h3 {
+		font-size: 1.2rem;
+	}
 }
 
 @media (max-width: 400px) {
+	.hero {
+		margin-top: 120px;
+	}
+
 	.contact{
 		width: 350px;
 		padding: 0px;
 	}
 
-	.product-cards {
-		padding: 20px;
+	.contact h2 {
+		text-align: center;
 	}
 }
