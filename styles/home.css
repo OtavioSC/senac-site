@@ -567,6 +567,12 @@ body {
   }
 }
 
+@media (max-width: 800px) {
+	.hero {
+		margin-top: 50px;
+	}
+}
+
 @media (max-width: 700px) {
   .ingredientes {
 		margin-top: 120px;
